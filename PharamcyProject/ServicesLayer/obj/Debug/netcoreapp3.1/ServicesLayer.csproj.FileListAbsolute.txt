@@ -1,0 +1,15 @@
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\bin\Debug\netcoreapp3.1\ServicesLayer.deps.json
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\bin\Debug\netcoreapp3.1\ServicesLayer.dll
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\bin\Debug\netcoreapp3.1\ServicesLayer.pdb
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\obj\Debug\netcoreapp3.1\ServicesLayer.csproj.AssemblyReference.cache
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\obj\Debug\netcoreapp3.1\ServicesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\obj\Debug\netcoreapp3.1\ServicesLayer.AssemblyInfoInputs.cache
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\obj\Debug\netcoreapp3.1\ServicesLayer.AssemblyInfo.cs
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\obj\Debug\netcoreapp3.1\ServicesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\obj\Debug\netcoreapp3.1\ServicesLayer.csproj.CopyComplete
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\obj\Debug\netcoreapp3.1\ServicesLayer.dll
+C:\Users\Honor\source\repos\PharamcyProject\ServicesLayer\obj\Debug\netcoreapp3.1\ServicesLayer.pdb
