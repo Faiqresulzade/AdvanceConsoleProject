@@ -116,3 +116,9 @@ C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\obj\Debug\
 C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\obj\Debug\netcoreapp3.1\PharamcyProject.csproj.CopyComplete
 C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\obj\Debug\netcoreapp3.1\PharamcyProject.dll
 C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\obj\Debug\netcoreapp3.1\PharamcyProject.pdb
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\bin\Debug\netcoreapp3.1\PharamcyProject.deps.json
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\bin\Debug\netcoreapp3.1\PharamcyProject.runtimeconfig.json
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\bin\Debug\netcoreapp3.1\PharamcyProject.runtimeconfig.dev.json
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\bin\Debug\netcoreapp3.1\PharamcyProject.dll
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\bin\Debug\netcoreapp3.1\PharamcyProject.pdb
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\PharamcyProject\obj\Debug\netcoreapp3.1\PharamcyProject.genruntimeconfig.cache
