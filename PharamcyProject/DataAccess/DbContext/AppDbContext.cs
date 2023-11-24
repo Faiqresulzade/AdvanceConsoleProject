@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.DbContext
 {
-    class AppDbContext: Microsoft.EntityFrameworkCore.DbContext
+    public class AppDbContext : Microsoft.EntityFrameworkCore.DbContext
     {
         public DbSet<Drug> Drugs { get; set; }
         public DbSet<RoleType> RoleTypes { get; set; }

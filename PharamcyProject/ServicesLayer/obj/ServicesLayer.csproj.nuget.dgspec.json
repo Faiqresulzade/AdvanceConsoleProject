@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj": {}
+    "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\Core\\Core.csproj": {
+    "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\Core\\Core.csproj"
+              "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\Core\\Core.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj": {
+    "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj",
         "projectName": "ServicesLayer",
-        "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj",
+        "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\ServicesLayer\\obj\\",
+        "outputPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\ServicesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,8 +162,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\DataAccess.csproj"
               }
             }
           }

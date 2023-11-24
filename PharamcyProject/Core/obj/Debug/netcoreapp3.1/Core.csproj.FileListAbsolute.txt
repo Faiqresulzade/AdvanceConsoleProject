@@ -8,3 +8,13 @@ C:\Users\Honor\source\repos\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.As
 C:\Users\Honor\source\repos\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
 C:\Users\Honor\source\repos\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\Honor\source\repos\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\Honor\Desktop\AdvanceConsole\PharamcyProject\Core\obj\Debug\netcoreapp3.1\Core.pdb

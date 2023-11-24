@@ -1,5 +1,4 @@
 ﻿using Core.Models;
-using System.Collections.Generic;
 
 namespace Core
 {
@@ -9,12 +8,11 @@ namespace Core
         public float MinSalary { get; set; } = 200;
         public float Budget { get; set; } = 100;
         public string Location { get; set; }
+        public int EmployeId { get; set; }
+        public Employe Employe { get; set; }
 
-        public List<Employe> Employe;
 
-        //public Pharamcy()
-        //{
-        //    Employe = new List<Employe>();
-        //}
+
+
     }
 }

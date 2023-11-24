@@ -5745,11 +5745,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5766,8 +5766,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\Core\\Core.csproj"
+            "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\Core\\Core.csproj"
             }
           }
         }

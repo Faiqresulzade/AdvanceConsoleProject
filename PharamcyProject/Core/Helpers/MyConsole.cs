@@ -17,6 +17,7 @@ namespace Core.Helpers
             Console.ForegroundColor = color;
             Console.Write(text);
             Console.ResetColor();
+            Console.WriteLine("");
         }
 
         public static void WriteFormat(string text, ConsoleColor color = ConsoleColor.Yellow)

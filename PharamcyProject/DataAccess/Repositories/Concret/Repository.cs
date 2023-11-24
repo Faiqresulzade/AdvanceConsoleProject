@@ -4,61 +4,59 @@ using DataAccess.Repositories.Abstract;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 
 namespace DataAccess.Repositories.Concret
 {
     public class Repository<T> : IRepository<T> where T : BaseModel
     {
-
         AppDbContext _appDbContext = new AppDbContext();
-
 
         private readonly DbSet<T> _dbset;
         public Repository()
         {
             _dbset = _appDbContext.Set<T>();
         }
-        public async Task<List<T>> GetAllAsync()
+        public List<T> GetAll()
         {
-            return await _dbset.ToListAsync();
+            return  _dbset.ToList();
         }
 
-        public async Task<T> GetbyIdAsync(int id)
+        public T GetbyId(int id)
         {
-            return await _dbset.FindAsync(id);
+            return _dbset.Find(id);
         }
-        public async Task CreateAsync(T entity)
+        public void Create(T entity)
         {
-            await _dbset.AddAsync(entity);
-            await _appDbContext.SaveChangesAsync();
+             _dbset.Add(entity);
+             _appDbContext.SaveChanges();
         }
 
-        public async Task UpdateAsync(T entity)
+        public void Update(T entity)
         {
             _dbset.Update(entity);
-            await _appDbContext.SaveChangesAsync();
+            _appDbContext.SaveChanges();
         }
-        public async Task DeleteAsync(T entity)
+        public  void Delete(T entity)
         {
             _dbset.Remove(entity);
-            await _appDbContext.SaveChangesAsync();
+            _appDbContext.SaveChanges();
         }
 
-        public async Task<bool> AnyAsync(Expression<Func<T, bool>> predicate)
+        public bool Any(Expression<Func<T, bool>> predicate)
         {
-            return await _dbset.AnyAsync(predicate);
+            return _dbset.Any(predicate);
         }
 
-        public async Task SaveChanges()
+        public void SaveChanges()
         {
-            await _appDbContext.SaveChangesAsync();
+            _appDbContext.SaveChangesAsync();
         }
 
-        public async Task<T> FirstorDefaultAsync()
+        public T FirstorDefault()
         {
-            return await _dbset.FirstOrDefaultAsync();
+            return _dbset.FirstOrDefault();
         }
     }
 }

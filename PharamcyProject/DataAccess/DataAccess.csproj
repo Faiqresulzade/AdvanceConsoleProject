@@ -7,6 +7,12 @@
   <ItemGroup>
     <Compile Remove="Migrations\20231121205033_addedEmpoles.cs" />
     <Compile Remove="Migrations\20231121205033_addedEmpoles.Designer.cs" />
+    <Compile Remove="Migrations\20231123113047_relationpharamcyandemploye.cs" />
+    <Compile Remove="Migrations\20231123113047_relationpharamcyandemploye.Designer.cs" />
+    <Compile Remove="Migrations\20231123114857_updateEmployeTable.cs" />
+    <Compile Remove="Migrations\20231123114857_updateEmployeTable.Designer.cs" />
+    <Compile Remove="Migrations\20231123114943_updateEmployeTable.cs" />
+    <Compile Remove="Migrations\20231123114943_updateEmployeTable.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -5743,11 +5743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\PharamcyProject\\PharamcyProject.csproj",
+      "projectUniqueName": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\PharamcyProject\\PharamcyProject.csproj",
       "projectName": "PharamcyProject",
-      "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\PharamcyProject\\PharamcyProject.csproj",
+      "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\PharamcyProject\\PharamcyProject.csproj",
       "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\PharamcyProject\\obj\\",
+      "outputPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\PharamcyProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5764,8 +5764,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj": {
-              "projectPath": "C:\\Users\\Honor\\source\\repos\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj"
+            "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj": {
+              "projectPath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\ServicesLayer\\ServicesLayer.csproj"
             }
           }
         }

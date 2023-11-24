@@ -1,7 +1,7 @@
 ﻿
 namespace Core.Constants
 {
-   public enum Gender
+    public enum Gender
     {
         Kişi,
         Qadın

@@ -11,10 +11,5 @@ namespace Core
         public int Count { get; set; }
         public int PurchasePrice { get; set; }
         public int SalePrice { get; set; }
-        private static int _id;
-        public Drug()
-        {
-            Id = ++_id;
-        }
     }
 }
