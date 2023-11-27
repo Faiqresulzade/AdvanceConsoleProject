@@ -2,7 +2,7 @@
 
 namespace Core
 {
-   public class Pharamcy:BaseModel
+    public class Pharamcy : BaseModel
     {
         public string Name { get; set; }
         public float MinSalary { get; set; } = 200;
@@ -10,9 +10,6 @@ namespace Core
         public string Location { get; set; }
         public int EmployeId { get; set; }
         public Employe Employe { get; set; }
-
-
-
 
     }
 }

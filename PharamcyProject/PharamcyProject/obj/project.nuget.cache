@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KOtf2AW0O3FCi5TmuHWQ9i/7GiHuMKyEOudbRmvoq38LdtY5n0AuC/gcSGWaOm4I0ko+lOP3mBK/+ogGo2phPg==",
+  "dgSpecHash": "A3dd1QvMPpizIwI8wBPFXK4NqKZeMyNXH9Hk0ln1oKTJt7+4zbYy86ZMcINDbr4i+vNdw1zGCt6ugPa86TWrIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Honor\\Desktop\\AdvanceConsole\\PharamcyProject\\PharamcyProject\\PharamcyProject.csproj",
   "expectedPackageFiles": [
@@ -102,7 +102,8 @@
     "C:\\Users\\Honor\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Honor\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5,7 +5,6 @@ namespace Core
 {
    public class Drug:BaseModel
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public DrugType DrugType { get; set; }
         public int Count { get; set; }

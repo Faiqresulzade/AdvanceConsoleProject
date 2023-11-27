@@ -10,7 +10,7 @@ namespace ServicesLayer.Services.Concret
         {
             Console.Clear();
             EmployeService employeService = new EmployeService();
-
+            Admin:
             MyConsole.WriteLine("1.ishchi elave et", ConsoleColor.DarkMagenta);
             MyConsole.WriteLine("2.ishchi sil", ConsoleColor.DarkMagenta);
             MyConsole.WriteLine("3.Ishcini yenile", ConsoleColor.DarkMagenta);
@@ -25,12 +25,13 @@ namespace ServicesLayer.Services.Concret
             {
                 case "1":
                     employeService.Create();
-                    break;
+                    goto Admin;
                 case "2":
                     employeService.Delete();
-                    break;
+                    goto Admin;
                 case "3":
-                    break;
+                    employeService.Update();
+                    goto Admin;
                 case "4":
                     break;
                 case "5":
