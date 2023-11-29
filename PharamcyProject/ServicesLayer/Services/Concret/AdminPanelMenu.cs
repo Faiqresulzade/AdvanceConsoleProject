@@ -8,9 +8,12 @@ namespace ServicesLayer.Services.Concret
     {
         public void AdminDashboard()
         {
-            Console.Clear();
+          
             EmployeService employeService = new EmployeService();
-            Admin:
+            DrugService drugService = new DrugService();
+        Admin:
+            Console.Clear();
+
             MyConsole.WriteLine("1.ishchi elave et", ConsoleColor.DarkMagenta);
             MyConsole.WriteLine("2.ishchi sil", ConsoleColor.DarkMagenta);
             MyConsole.WriteLine("3.Ishcini yenile", ConsoleColor.DarkMagenta);
@@ -33,15 +36,19 @@ namespace ServicesLayer.Services.Concret
                     employeService.Update();
                     goto Admin;
                 case "4":
-                    break;
+                    drugService.Create();
+                    goto Admin;
                 case "5":
-                    break;
+                    drugService.Delete();
+                    goto Admin;
                 case "6":
-                    break;
+                    drugService.Update();
+                    goto Admin;
                 case "7":
                     break;
 
                 default:
+                    MyConsole.WriteLine("Duzgun daxil edin!!", ConsoleColor.Red);
                     break;
             }
         }

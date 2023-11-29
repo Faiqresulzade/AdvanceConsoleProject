@@ -164,7 +164,7 @@ namespace ServicesLayer.Services.Concret
                     employe.Password = Password;
                     goto update;
                 case "6":
-                    UpdateGender();
+                    UpdateGender(employe);
                     goto update;
                 case "7":
                     UpdateRole();
@@ -201,7 +201,7 @@ namespace ServicesLayer.Services.Concret
             return newInput;
         }
 
-        private void UpdateGender()
+        private void UpdateGender(Employe employe)
         {
             MyConsole.WriteLine($"Evvelki cins: {employe.Gender}\n 1.Kishi\n 2.Qadin");
             switch (Console.ReadLine())
@@ -214,7 +214,7 @@ namespace ServicesLayer.Services.Concret
                     break;
                 default:
                     MyConsole.WriteLine("Duzgun daxil edin!!", ConsoleColor.Red);
-                    UpdateGender();
+                    UpdateGender(employe);
                     break;
             }
 
