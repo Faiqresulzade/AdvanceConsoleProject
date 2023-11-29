@@ -12,7 +12,8 @@ namespace ServicesLayer.Services.Concret
     public class EmployeService : IEmployeService
     {
         EmployeRepository employeRepository = new EmployeRepository();
-
+        Employe employe;
+        RoleRepository roleRepository = new RoleRepository();
         string name, Surname, username, password;
         int salary, InputRole, roleId;
         Gender gender;
@@ -32,31 +33,17 @@ namespace ServicesLayer.Services.Concret
         {
             Console.Clear();
 
-            RoleRepository roleRepository = new RoleRepository();
             List<RoleType> roles = roleRepository.GetAll();
 
             name = Input("Ad daxil edin: ", s => string.IsNullOrEmpty(s));
+            Surname = Input("Surname Daxil edin: ",s=>string.IsNullOrEmpty(s)||s.Length<5);
+            username = Input("Username daxil edin : ", s => string.IsNullOrEmpty(s) || s.Length < 5);
 
-            //do
-            //{
-            //    MyConsole.Write("Ad Daxil edin: ");
-            //    name = Console.ReadLine();
-            //} while (string.IsNullOrEmpty(name) || name.Length < 3);
-            do
-            {
-                MyConsole.Write("Surname Daxil edin: ");
-                Surname = Console.ReadLine();
-            } while (string.IsNullOrEmpty(Surname) || Surname.Length < 5);
             do
             {
                 MyConsole.Write("Maashi daxil edin : ");
                 int.TryParse(Console.ReadLine(), out salary);
             } while (salary < 100 || salary > 3000);
-            do
-            {
-                MyConsole.Write("Username daxil edin : ");
-                username = Console.ReadLine();
-            } while (string.IsNullOrEmpty(username));
             do
             {
                 MyConsole.Write("Passwor daxil edin : ");
@@ -119,6 +106,7 @@ namespace ServicesLayer.Services.Concret
 
         public void Delete()
         {
+            Console.Clear();
             bool isExist;
             int id;
             List<Employe> employes = employeRepository.GetAll();
@@ -131,7 +119,6 @@ namespace ServicesLayer.Services.Concret
             do
             {
                 int.TryParse(Console.ReadLine(), out id);
-                //id=1;
                 isExist = employeRepository.Any(e => e.Id == id);
             } while (!isExist);
 
@@ -142,6 +129,7 @@ namespace ServicesLayer.Services.Concret
 
         public void Update()
         {
+            Console.Clear();
             Employe employe;
 
             do
@@ -150,44 +138,105 @@ namespace ServicesLayer.Services.Concret
                 int.TryParse(Console.ReadLine(), out int id);
                 employe = employeRepository.GetbyId(id);
             } while (employe == null);
+            Console.Clear();
+        update:
+            MyConsole.WriteLine("Sen Employenin hansi propertysini deyismek isteyirsen? ");
 
-            MyConsole.WriteLine("Sen Employenin hansi propertysini deyismek isteyirsen? ", ConsoleColor.Gray);
-
-            MyConsole.WriteLine("1.Name\n 2.Surname\n 3.Salary\n 4.Username\n 5.Password\n 6.Gender\n 7.Role\n ");
+            MyConsole.WriteLine("1.Name\n 2.Surname\n 3.Salary\n 4.Username\n 5.Password\n 6.Gender\n 7.Role\n 8.Exit ");
             string choose = Console.ReadLine();
             switch (choose)
             {
-
                 case "1":
-                    MyConsole.WriteLine("Yeni adi daxil et: ");
-                    string newName = Console.ReadLine();
-                    employe.Name = newName;
-                    break;
+                    employe.Name = InputUpdate("Yeni adi daxil et: ");
+                    goto update;
                 case "2":
-                    MyConsole.WriteLine("Yeni Soyadi daxil et: ");
-                    string newSurName = Console.ReadLine();
-                    employe.Surname = newSurName;
-                    break;
+                    employe.Surname = InputUpdate("Yeni Soyadi daxil et: ");
+                    goto update;
                 case "3":
-                    MyConsole.WriteLine("Yeni Soyadi daxil et: ");
-                    int.TryParse(Console.ReadLine(), out int newSalary);
-                    employe.Salary = newSalary;
-                    break;
+                    employe.Salary = int.Parse(InputUpdate("Yeni maashi daxil edin:"));
+                    goto update;
                 case "4":
-                    MyConsole.WriteLine("Yeni username daxil et: ");
-                    string newUsername = Console.ReadLine();
-                    employe.Username = newUsername;
-                    break;
+                    employe.Username = InputUpdate("Yeni UserName daxil et: ");
+                    goto update;
                 case "5":
                     MyConsole.WriteLine("Yeni Password daxil et: ");
                     string Password = Console.ReadLine();
                     employe.Password = Password;
+                    goto update;
+                case "6":
+                    UpdateGender();
+                    goto update;
+                case "7":
+                    UpdateRole();
+                    goto update;
+                case "8":
+
                     break;
                 default:
-                    break;
-
+                    MyConsole.WriteLine("Duzgun daxil edin!!", ConsoleColor.Red);
+                    goto update;
             }
             employeRepository.Update(employe);
         }
+
+        private string InputUpdate(string promt, Func<int, bool> func = default)
+        {
+            int input;
+            if (func != default)
+            {
+                do
+                {
+                    MyConsole.WriteLine($"{promt}");
+                    int.TryParse(Console.ReadLine(), out input);
+                } while (func(input));
+                return input.ToString();
+            }
+            string newInput;
+            do
+            {
+                MyConsole.WriteLine($"{promt}");
+                newInput = Console.ReadLine();
+            } while (string.IsNullOrEmpty(newInput));
+
+            return newInput;
+        }
+
+        private void UpdateGender()
+        {
+            MyConsole.WriteLine($"Evvelki cins: {employe.Gender}\n 1.Kishi\n 2.Qadin");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    employe.Gender = Gender.Kişi;
+                    break;
+                case "2":
+                    employe.Gender = Gender.Qadın;
+                    break;
+                default:
+                    MyConsole.WriteLine("Duzgun daxil edin!!", ConsoleColor.Red);
+                    UpdateGender();
+                    break;
+            }
+
+            MyConsole.WriteLine("Ugurla deyisildi", ConsoleColor.Green);
+            Console.WriteLine(employe.Gender);
+        }
+        private void UpdateRole()
+        {
+            var roles = roleRepository.GetAll();
+            do
+            {
+                MyConsole.WriteLine("Role daxil edin");
+                for (int i = 0; i < roles.Count; i++)
+                {
+                    MyConsole.WriteLine($"{i + 1}-{roles[i].RoleName}");
+                }
+
+                int.TryParse(Console.ReadLine(), out InputRole);
+
+                roleId = roles[InputRole - 1].Id;
+            } while (InputRole > roles.Count);
+        }
+
     }
 }
